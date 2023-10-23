@@ -1,0 +1,63 @@
+.edit-table { // For profile page
+  width: 100%;
+  margin-bottom: 15px;
+  .table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 10px 20px;
+    background-color: var(--box-bg);
+    border-bottom: 1px solid #2d534a;
+    border-radius: 5px 5px 0 0;
+    font-weight: 600;
+  }
+  .table-body {
+    background-color: var(--table-bg);
+    padding: 20px 10px;
+    border-radius: 0 0 10px 10px;
+    padding: 1.25rem;
+    .edit-fields {
+      width: 100%;
+      font-size: 100%;
+      line-height: 1.15;
+      .table-item {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 100%;
+        padding: 12px 0;
+        .item-title {
+          width: 25%;
+          font-size: 1rem;
+          line-height: 1.5;
+          font-weight: 400;
+        }
+        
+        input {
+          width: 50%;
+          height: 35px;
+          padding: 0.375rem 0.75rem;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.5;
+          background-color: transparent;
+          background-color: var(--left-menu);
+          border: unset;
+          outline: none;
+          color: var(--white);
+          border-radius: 5px;
+        }
+      }
+    }
+    .btns {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 20px;
+    }
+  }
+}
+
+.m-t-40 {
+  margin-top: 40px;
+}
